@@ -1,0 +1,21 @@
+# ignoring idea config files
+workspace.xml
+tasks.xml
+*.iml
+modules.xml
+
+# NodeJS specific #
+.nyc_output/
+coverage/
+node_modules/
+npm-debug.log
+test/*.log
+
+# dotenv environment variables file
+.env
+.env.test
+
+src/config.json
+src/testLocations1.json
+src/testLocations2.json
+src/testLocations3.json
