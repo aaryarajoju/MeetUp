@@ -1,32 +1,27 @@
 {
   "locations": {
-      "origins": [{
-          "name": "person 1",
-          "latitude": 47.6044,
-          "longitude": -122.3345
-        },
-        {
-          "name": "person 2",
-          "latitude": 47.6731,
-          "longitude": -122.1185
-        },
-        {
-          "name": "person 3",
-          "latitude": 47.6149,
-          "longitude": -122.1936
-        }],
+    "origins": [{
+      "name": "steve",
+      "latitude": 47.6044,
+      "longitude": -122.3345
+    },
+      {
+        "name": "mike",
+        "latitude": 47.6731,
+        "longitude": -122.1185
+      }],
 
-      "destinations": [{
-          "name": "place 1",
-          "latitude": 45.5347,
-          "longitude": -122.6231
-        },
-        {
-          "name": "place 2",
-          "latitude": 47.4747,
-          "longitude": -122.2057
-        }],
-      "travelMode": "driving",
-      "timeUnit": "minute"
-    }
+    "destinations": [{
+      "name": "park",
+      "latitude": 45.5347,
+      "longitude": -122.6231
+    },
+      {
+        "name": "museum",
+        "latitude": 47.4747,
+        "longitude": -122.2057
+      }],
+    "travelMode": "driving",
+    "timeUnit": "minute"
+  }
 }
