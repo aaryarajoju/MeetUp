@@ -3,8 +3,7 @@
 const apiURL = 'https://dev.virtualearth.net/REST/v1/Routes/DistanceMatrix';
 const {apiKey} = require('./config.json');
 const httpPostRequestURL = `${apiURL}?key=${apiKey}`
-// const {locations} = require('./sampleLocations.json');
-const {locations} = require('./testLocations1.json');
+const {locations} = require('./sampleLocations.json');
 const numberOfOrigins = locations.origins.length;
 const numberOfDestinations = locations.destinations.length;
 
